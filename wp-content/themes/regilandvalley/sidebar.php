@@ -112,4 +112,14 @@
 						   <a href="https://plus.google.com/u/0/+AnuruddhaPremalal/posts" class="social-icon-sm color-one" target="_blank"><div class="inner-circle-sm" ></div><i class="fa fa-google-plus"></i></a>
 						</div>	
 					</div>
+		<div class="aside-widget">
+			<header>
+                            <h3>Tweets</h3>
+                        </header>
+			<div class="body clearfix">
+				<a class="twitter-timeline" href="https://twitter.com/anuruddhapre" data-widget-id="551270803937828864">Tweets by @anuruddhapre</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div>
+
          </aside>

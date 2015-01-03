@@ -532,7 +532,7 @@ hr {
 }
 /* Blog aside widgets */
 .aside-widget {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 .aside-widget header {
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f6f5f5), to(#ebeaea));
