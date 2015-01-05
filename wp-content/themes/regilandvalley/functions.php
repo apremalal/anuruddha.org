@@ -17,4 +17,17 @@ function new_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Global Footer widget bar',
+		'id' => 'sidebar-1',
+		'before_widget' => '<div>',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
 ?>

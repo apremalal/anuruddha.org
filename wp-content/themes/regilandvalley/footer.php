@@ -63,6 +63,12 @@
                         <span class="email">
                             <a href="mailto:anuruddhapremalal@gmail.com">Anuruddha Premalal</a>
                         </span>
+			<!--subscription widget -->
+			<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-1' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
                     </div>
                 </div>
             </div>
