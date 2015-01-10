@@ -22,7 +22,7 @@ Template Name: Landing page
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Mentoring google summer of code was exciting <span class="text-muted"> ~ mifosx ~</span></h2><br/><br/>
-          <p class="lead">As a former gsoc student I was able to help many students with getting onboard process with mifosx for 2014 SOC. This year we had around 20 proposal submissions and 6 of them got selected.</p>
+          <p class="lead">As a former GSOC student I was able to help many students with the getting onboard process for  GSOC 2014. This year we had around 20 proposal submissions and 6 of them got selected.</p>
 		    <div class="clearfix"><a class="btn btn-primary" target="_blank" style="float:right" href="http://mifos.org/blog/meet-2014-google-summer-code-class-interns/">Read More</a></div>
         </div>
         <div class="col-md-5">

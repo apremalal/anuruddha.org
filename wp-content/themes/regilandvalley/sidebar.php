@@ -57,7 +57,7 @@
         </header>
         <div class="body">						  
     		<span class="about-sidebar"><img class="about-portrait img-responsive" alt="" src="<?php echo get_template_directory_uri();?>/img/about-me.png" width="115" height="120"/>
-    		 I'm Anuruddha!<br/>I'm an entrepreneur, a software engineer <br/> <br/>
+    		 I'm Anuruddha!<br/>I'm a technology enthusiast <br/> <br/>
     		<!-- Place this code where you want the badge to render. -->
     		<a href="//plus.google.com/u/0/117146363453945095163?prsrc=3"
     		   rel="publisher" target="_top" style="display:inline-block;">
