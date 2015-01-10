@@ -634,7 +634,7 @@ class Jetpack_Subscriptions_Widget extends WP_Widget {
 			}
 			?>
 
-			<p id="subscribe-email" style="float:left;"><input type="text" class="form-control" name="email" value="<?php echo !empty( $current_user->user_email ) ? esc_attr( $current_user->user_email ) : esc_html__( 'Email Address', 'jetpack' ); ?>" id="<?php echo esc_attr($subscribe_field_id) ?>" onclick="if ( this.value == '<?php esc_html_e( 'Email Address', 'jetpack' ) ?>' ) { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = '<?php esc_html_e( 'Email Address', 'jetpack' ) ?>'; }" /></p>
+			<p id="subscribe-email" style="float:left;"><input type="text" class="form-control" style="height:38px;" name="email" placeholder="<?php echo !empty( $current_user->user_email ) ? esc_attr( $current_user->user_email ) : esc_html__( 'Email Address', 'jetpack' ); ?>" id="<?php echo esc_attr($subscribe_field_id) ?>" onclick="if ( this.value == '<?php esc_html_e( 'Email Address', 'jetpack' ) ?>' ) { this.value = ''; }" onblur="if ( this.placeholder == '' ) { this.placeholder = '<?php esc_html_e( 'Email Address', 'jetpack' ) ?>'; }" /></p>
 
 			<p id="subscribe-submit">
 				<input type="hidden" name="action" value="subscribe" />
@@ -646,7 +646,7 @@ class Jetpack_Subscriptions_Widget extends WP_Widget {
 						wp_nonce_field( 'blogsub_subscribe_'. get_current_blog_id(), '_wpnonce', false );
 					}
 				?>
-				<input type="submit" class="btn btn-primary btn-sm" value="<?php echo esc_attr( $subscribe_button ); ?>" name="jetpack_subscriptions_widget" />
+				<button type="submit" class="btn btn-default btn-sm" name="jetpack_subscriptions_widget"><i class="fa fa-rss"></i></button>
 			</p>
 		</form>
 

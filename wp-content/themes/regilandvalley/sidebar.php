@@ -28,14 +28,25 @@
         document.getElementById('wso2-email').value = "";
     }   
 </script>
+
 <aside class="col-md-4 blog-aside">
     <div class="aside-widget">
         <div class="body">
             <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>" class="navbar-form">
-			  <div class="form-group">
-				<input type="text" class="form-control" style="height:40px;" placeholder="Search" value="" name="s" id="s" >
+			  <h3><i class="fa fa-search"></i><label for="subscribe-field">Search</label></h3>
+              <div class="form-group">
+				<input type="text" class="form-control" style="height:38px;" placeholder="Search" value="" name="s" id="s" >
+                <button type="submit" class="btn btn-default btn-sm"><i class="fa fa-search"></i></button>
 			  </div>
-			  <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+			  
+            <hr>
+              <!--subscription widget -->
+            <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+                <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+                <?php dynamic_sidebar( 'sidebar-1' ); ?>
+                </div><!-- #primary-sidebar -->
+            <?php endif; ?>
+
 			</form>            
 		</div>
 	</div>

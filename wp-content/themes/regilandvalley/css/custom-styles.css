@@ -41,6 +41,9 @@ h3 {
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
 }
+h3 .fa{
+  margin-right: 11px;
+}
 hr {
   border-top-color: #ced5db;
 }
@@ -515,7 +518,7 @@ hr {
   }
 }
 .blog-aside {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 @media (max-width: 767px) {
   .blog-aside {
