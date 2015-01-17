@@ -8,8 +8,15 @@ Template Name: Landing page
   <div class="container marketing">
       <!-- START THE FEATURETTES -->
 	    <div class="row featurette">
-        <div class="col-md-5">
-          <a href="<?php echo get_permalink(7); ?>"><img class="featurette-image img-responsive about-portrait-landing"  src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="Generic placeholder image"></a><br/>
+        <div class="col-md-5" style="padding-top:5%;padding-left:8%;">
+           <div class="ih-item circle effect13 top_to_bottom"><a href="index.php?page_id=7">
+              <div class="img"><img src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="img"></div>
+              <div class="info">
+                <h3>About Me</h3>
+                <p>View full profile</p>
+              </div></a>
+           </div>
+         <!-- <a href="<?php echo get_permalink(7); ?>"><img class="featurette-image img-responsive about-portrait-landing"  src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="Generic placeholder image"></a>--><br/> 
         </div>
         <div class="col-md-7" style="margin-top:60px;">
           <h2 class="featurette-heading">Welcome to Anuruddha's Home page! </h2><br/>

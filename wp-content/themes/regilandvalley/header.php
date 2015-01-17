@@ -30,6 +30,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Serif:400,400italic' rel='stylesheet' type='text/css'>
 
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ihover.css" type="text/css" media="screen" />
 
     <!--[if lt IE 9]>      
         <script src="js/google/html5-3.6-respond-1.1.0.min.js"></script>

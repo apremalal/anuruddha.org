@@ -55,16 +55,30 @@
         <header>
             <h3>About Me</h3>
         </header>
-        <div class="body">						  
-    		<span class="about-sidebar"><img class="about-portrait img-responsive" alt="" src="<?php echo get_template_directory_uri();?>/img/about-me.png" width="115" height="120"/>
-    		 I'm Anuruddha!<br/>I'm a technology enthusiast <br/> <br/>
+        <div class="body">
+            <div class="row">
+             <div class="col-md-6">
+              <div class="ih-item circle-sm effect13 top_to_bottom"><a href="index.php?page_id=7">
+                  <div class="img"><img src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="img"></div>
+                  <div class="info">
+                    <h3>About Me</h3>
+                    <p>View full profile</p>
+                  </div></a>
+                </div>
+             </div>   
+             <div class="col-md-6" style="padding-left:0;">
+                I'm Anuruddha!<br/>I'm a technology enthusiast
+                <a href="//plus.google.com/u/0/117146363453945095163?prsrc=3" rel="publisher" target="_top" style="display:inline-block;">
+                 Follow me on  <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;margin-left:8px;"/>
+                </a>
+                <a href="<?php echo get_permalink(7); ?>" style="color: #AF7817;">View my full profile</a>   
+             </div>
+                          
+            </div>	
+    		    
+             
     		<!-- Place this code where you want the badge to render. -->
-    		<a href="//plus.google.com/u/0/117146363453945095163?prsrc=3"
-    		   rel="publisher" target="_top" style="display:inline-block;">
-    		Follow me on 
-    		<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;margin-left:8px;"/>
-    		</a><br/><br/>
-    	    <a href="<?php echo get_permalink(7); ?>" style="color: #AF7817;">View my full profile</a>       
+    		    
         </div>
     </div>
 
