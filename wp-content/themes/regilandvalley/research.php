@@ -19,7 +19,7 @@ Template Name: projects template
                     <img src="<?php echo get_template_directory_uri();?>/img/micro-research.jpg" alt="img03"/>
                     <figcaption>
                       <h2><span>OZCHI 2014</span></h2>
-                      <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                      <p>Augmented-everyday-objects &nbsp;classification micro-activity recognition</p>
                       <a href="#">View more</a>
                     </figcaption>     
                 </figure>
@@ -51,7 +51,8 @@ Template Name: projects template
                     <img src="<?php echo get_template_directory_uri();?>/img/microfilariae.jpg" alt="img03"/>
                     <figcaption>
                       <h2>ICIIS <span>2013</span></h2>
-                      <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                      <p>connected component analysis object detection computer aided
+diagnosis</p>
                       <a href="#">View more</a>
                     </figcaption>     
                 </figure>
@@ -84,7 +85,7 @@ Template Name: projects template
                     <img src="<?php echo get_template_directory_uri();?>/img/panda.jpg" alt="img03"/>
                     <figcaption>
                       <h2><span>2015</span></h2>
-                      <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                      <p>Internet of things</p>
                       <a href="#">View more</a>
                     </figcaption>     
                 </figure>
