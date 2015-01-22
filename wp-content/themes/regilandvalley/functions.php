@@ -8,9 +8,16 @@ function regilandvalley_scripts_with_jquery()
 	// For either a plugin or a theme, you can then enqueue the script:
 	wp_enqueue_script( 'custom-script' );
 }
+
 add_action( 'wp_enqueue_scripts', 'regilandvalley_scripts_with_jquery' );
 
 add_action( 'wp_enqueue_scripts', 'webendev_load_font_awesome', 99 );
+
+function register_site_menus() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+
+add_action( 'init', 'register_site_menus' );
 
 function new_excerpt_more( $more ) {
 	return '<div class="clearfix"><a class="btn btn-primary" style="float:right" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a></div>';
@@ -28,6 +35,7 @@ function arphabet_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 }
+
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 ?>

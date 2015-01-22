@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/custom-styles.css">
+	<title> tempory wordpress post</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+ <div class="container">
+	<div class="row">
+	  <div class="col-md-8 blog-main">
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<!--Content -->
+					<div class="row" style="margin-bottom: 0px;background-color:rgba(85, 167, 115, 0.1);padding:25px;margin-right: 0px;margin-left: 0px;">					  
+				        <div class="author col-xs-6 col-md-4">
+				            <i class="fa fa-user"></i>
+				            <span class="data"><?php the_author(); ?> </span>
+				        </div>
+				        <div class="date col-xs-6 col-md-4">
+				            <i class="fa fa-calendar"></i>
+				            <span class="data"><?php the_date('Y-m-d', '', ''); ?></span>
+				        </div>
+				        <div class="comments col-xs-6 col-md-4">
+				            <i class="fa fa-comments"></i>
+				            <span class="data"><a href="#comments"><?php comments_number();?></a></span>
+				        </div>                                
+				    </div>	
+			 		<article class="blog-post">
+						<header class="col-md-12">
+							<div class="row">
+						    <h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></h1>
+							</div>
+						</header>
+						<div class="body">
+						<!--######################### post content ###################### -->
+							<div class="container-fluid">
+							  <div class="row panel panel-success">
+								    <div class="panel-heading">CONTRIBUTED BY</div>
+								    <!--row1 -->
+								    <div class="row">
+									     <div class="col-md-4">
+									    	Anuruddha Hettiarachchi
+									     </div>
+									     <div class="col-md-4">
+									    	anuruddha@gmail.com
+									     </div> 
+								    </div><!-- row 1 -->
+
+								     <!--row2 -->
+								    <div class="row">
+									     <div class="col-md-4">
+									    	Anuruddha Premalal
+									     </div>
+									     <div class="col-md-4">
+									    	anuruddha@wso2.com
+									     </div> 
+								     </div><!-- row 2 -->
+
+								     <!--row3 -->
+								    <div class="row">
+									     <div class="col-md-4">
+									    	Dileeka Dias
+									     </div>
+									     <div class="col-md-4">
+									    	dileeka@gmail.com
+									     </div> 
+								    </div><!-- row 3 -->
+
+								     <!--row4 -->
+								    <div class="row">
+									     <div class="col-md-4">
+									    	Suranga
+									     </div>
+									     <div class="col-md-4">
+									    	suranga@gmail.com
+									     </div> 
+								    </div><!-- row 4 -->
+							   </div>
+							</div>
+							<h3>Introduction</h3>
+							<p>Ubiquitous computing intends to increase the use of
+								computers by making them accessible from anywhere
+								in the physical environment at anytime yet without drawing user's attention. Recent boom of wearable devices such as smart-watches, smart-glasses attempt
+								to overcome this issue by proposing interactions that
+								require minimal user involvement. However, in instances
+								where people interact with shared physical objects in
+								common spaces, it is more practical to augment the
+								objects rather than humans. For example, in a library,
+								attaching a sensor to a book is more realistic than having
+								each library user wear a special device.
+								The way we interact with everyday-physical-object
+								consists of sequences of short-repetitive-activities which
+								we refer to as micro-activities.
+								A collection of micro-activities make up one macro level activity, which
+								is typically tested in activity recognition research. For
+								instance, cycling can be thought of as a sequence
+								of micro-activities such as accelerating, decelerating,
+								turning, standing still, falling, etc. A rapid intermittent
+								acceleration and deceleration trigger a turbulent ride
+								while constant speed triggers a steady one although
+								both situations fall under the category of cycling at
+								macro level. For understanding such delicate behavioral
+								changes of everyday objects, recognition of underlying
+								micro-activities is of much importance.</p>
+							<!--######################### end post content ###################### -->
+						</div>
+					</article>
+				<hr>
+				<?php comments_template(); ?>
+
+	    <?php endwhile; else: ?>
+			<p><?php _e('Sorry, this page does not exist.'); ?></p>
+		<?php endif; ?>
+	 </div>
+	  <?php get_sidebar(); ?>	
+  </div>
+</div>
+
+
+<script type="text/javascript" src="../js/jquery/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
