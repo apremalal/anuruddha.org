@@ -29,7 +29,7 @@ Template Name: Landing page
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Mentoring google summer of code was exciting <span class="text-muted"> ~ mifosx ~</span></h2><br/><br/>
-          <p class="lead">As a former GSOC student I was able to help many students with the getting onboard process for  GSOC 2014. This year we had around 20 proposal submissions and 6 of them got selected.</p>
+          <p class="lead">As a former GSOC student I was able to help many students with getting onboard process for  GSOC 2014. This year we had around 20 proposal submissions and 6 of them got selected.</p>
 		    <div class="clearfix"><a class="btn btn-primary" target="_blank" style="float:right" href="http://mifos.org/blog/meet-2014-google-summer-code-class-interns/">Read More</a></div>
         </div>
         <div class="col-md-5">
@@ -57,7 +57,7 @@ Template Name: Landing page
         <div class="col-md-7">
           <h2 class="featurette-heading">Towards Context-Aware Just-in-Time Information: <span class="text-muted">Micro-Activity recognition of Everyday Objects.</span></h2><br/>
           <p class="lead">I did this research with my collegue Anuruddha Hettiarachchi. Through this research we discuss the end-to-end process of micro-activity recognition of augmented everyday-objects and presents a complete performance comparison of different classifiers. This paper is published in Eighth International Conference on Industrial and information Systems. </p>
-        	<div class="clearfix"><a class="btn btn-primary" target="_blank" style="float:right" href="http://wiki.regilandvalley.com/index.php/Main_Page">Read More</a></div>
+        	<div class="clearfix"><a class="btn btn-primary" target="_blank" style="float:right" href="http://www.regilandvalley.com/?p=53">Read More</a></div>
         </div>
         <div class="col-md-5">
 		      <img class="featurette-image img-responsive" src="<?php echo get_template_directory_uri();?>/img/ubicomp_2014.png" alt="Generic placeholder image">
@@ -74,7 +74,7 @@ Template Name: Landing page
         <div class="col-md-7" style="margin-bottom:5%;">
           <h2 class="featurette-heading" style="margin-top:0;">Detection of microfilariae <span class="text-muted">in peripheral blood smears using image analysis </span></h2><br/>
           <p class="lead">This paper presents an image-based technique for diagnosis of filariasis through the detection of microfilariae present in Giemsa or Hematoxylin and Eosin stained peripheral thick blood smears.</p>
-          <div class="clearfix"><a class="btn btn-primary" style="float:right" target="_blank" href="https://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fieeexplore%2Eieee%2Eorg%2Fxpl%2FarticleDetails%2Ejsp%3Ftp%3D%26arnumber%3D6731999%26url%3Dhttp%253A%252F%252Fieeexplore%2Eieee%2Eorg%252Fxpls%252Fabs_all%2Ejsp%253Farnumber%253D6731999&urlhash=gB4c&trk=prof-publication-title-link">Read More</a></div>
+          <div class="clearfix"><a class="btn btn-primary" style="float:right" target="_blank" href="http://www.regilandvalley.com/?p=61">Read More</a></div>
         </div>
       </div>
 
