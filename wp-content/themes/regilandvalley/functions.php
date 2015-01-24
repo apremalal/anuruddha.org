@@ -38,4 +38,6 @@ function arphabet_widgets_init() {
 
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 
+remove_filter('the_content', 'wpautop');
+
 ?>
