@@ -20,7 +20,7 @@ Template Name: projects template
                     <figcaption>
                       <h2><span>OZCHI 2014</span></h2>
                       <p>Augmented-everyday-objects &nbsp;classification micro-activity recognition</p>
-                      <a href="#">View more</a>
+                      <a href="http://www.regilandvalley.com/?p=53">View more</a>
                     </figcaption>     
                 </figure>
               <!--  <a href="#">
@@ -37,7 +37,7 @@ Template Name: projects template
                                 the macro-level behaviour) enables the understanding of
                                 subtle behavioural changes and providing just-in-time
                                 information without explicit user input.</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="http://www.regilandvalley.com/?p=53">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
@@ -53,7 +53,7 @@ Template Name: projects template
                       <h2>ICIIS <span>2013</span></h2>
                       <p>connected component analysis object detection computer aided
 diagnosis</p>
-                      <a href="#">View more</a>
+                      <a href="http://www.regilandvalley.com/?p=61">View more</a>
                     </figcaption>     
                 </figure>
               <!--  <a href="#">
@@ -71,7 +71,7 @@ diagnosis</p>
                   microfilariae. Due its strenuous and mundane nature, 
                   considerable detection errors are observed. 
                 </p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="http://www.regilandvalley.com/?p=61">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
