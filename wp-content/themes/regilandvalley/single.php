@@ -29,7 +29,7 @@
 						</div>
 					</article>
 				<hr>
-				<?php comments_template(); ?>
+				<?php comment_form(); ?>
 
 	    <?php endwhile; else: ?>
 			<p><?php _e('Sorry, this page does not exist.'); ?></p>
