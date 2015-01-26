@@ -1233,3 +1233,26 @@ figure.effect-milo:hover p {
   line-height: 30px;
   margin-bottom: 25px;
 }
+/*
+* Sharing buttons
+*/
+/*
+[id*="sharing-twitter"]{
+  background-color: #00c3f3 !important;
+    color: white !important;
+}
+
+[id*="sharing-facebook"]{
+  background-color: #2d609b !important;
+    color: white !important;
+}
+
+[id*="sharing-linkedin"]{
+  background-color: #0074a1 !important;
+    color: white !important;
+}
+
+[id*="sharing-google"]{
+  background-color: #eb4026 !important;
+    color: white !important;
+}*/

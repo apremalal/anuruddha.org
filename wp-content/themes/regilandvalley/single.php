@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+ <?php get_header(); ?>
  <div class="container">
 	<div class="row">
 	  <div class="col-md-8 blog-main">
@@ -21,7 +21,7 @@
 			 		<article class="blog-post">
 						<header class="col-md-12">
 							<div class="row">
-						    <h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></h1>
+						    <h1><a href="<?php the_permalink() ?>" rel="bookmark"  title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 							</div>
 						</header>
 						<div class="body">
@@ -29,7 +29,12 @@
 						</div>
 					</article>
 				<hr>
-				<?php comment_form(); ?>
+				<?php 
+				 if ( comments_open() || get_comments_number() ) :
+				   comments_template();
+				 endif;
+
+				 ?>
 
 	    <?php endwhile; else: ?>
 			<p><?php _e('Sorry, this page does not exist.'); ?></p>
