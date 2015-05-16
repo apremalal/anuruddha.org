@@ -6,8 +6,21 @@
  *
  */
 /* General Content styles such as links, body text, or headings */
+
+@font-face {
+    font-family: roboto-light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
+
 body {
   font-size: 16px;
+  font-family: roboto-light;
   line-height: 27px;
   color: #404b55;
   background-color: #feffff;
@@ -28,18 +41,15 @@ h1 {
   font-size: 45px;
   line-height: 60px;
   font-weight: normal;
-  font-family: 'PT Serif', serif;
 }
 h2 {
   font-size: 30px;
   line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
 }
 h3 {
   font-size: 21px;
   line-height: 30px;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
 }
 h3 .fa{
   margin-right: 11px;
@@ -124,7 +134,7 @@ hr {
 .tales-nav .nav-pills > li {
   margin-left: 10px;
   letter-spacing: 1px;
-  font-weight: 650;
+  font-weight: 700;
 }
 .tales-nav .nav-pills > li > a {
   color: #f8f8f9;
@@ -672,7 +682,6 @@ hr {
   padding: 25px;
 }
 .blog-post header h1 {
-  font-family: 'PT Serif', serif;
   margin-bottom: 22px;
 }
 .blog-post header .lead-image {
@@ -1062,7 +1071,6 @@ aside.create-comment hr {
 .about-large,
 .about-medium,
 .about-small {
-  font-family: 'Open Sans', sans-serif;
   line-height: 60px;
 }
 @media (max-width: 767px) {
@@ -1229,7 +1237,6 @@ figure.effect-milo:hover p {
 .research h3{
   font-size:25px;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
   line-height: 30px;
   margin-bottom: 25px;
 }
