@@ -46,7 +46,7 @@ Template Name: Landing page
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">GSCO 2013, <span class="text-muted">Contributing to mifosx project.</span></h2><br/>
-          <p class="lead"> It was truley an amazig experience for me to become part of one of world's largest movement Mifos; fighting against poverty. I have succesfully completed two GSOC projects including Server side pagination and a caching layer for mifosx.</p>
+          <p class="lead"> It was truly an amazig experience for me to become part of one of world's largest movement Mifos; fighting against poverty. I have succesfully completed two GSOC projects including Server side pagination and a caching layer for mifosx.</p>
 		      <div class="clearfix"><a class="btn btn-primary" style="float:right" target="_blank" href="http://mifos.org/blog/meet-2013-google-summer-code-class-interns/">Read More</a></div>
         </div>
       </div>
