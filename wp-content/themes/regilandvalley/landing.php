@@ -38,7 +38,7 @@ Template Name: Landing page
           <p class="lead">
             It’s with extreme pleasure I’m sharing that WSO2 AppFactory has made to Google summer of code for the first time. AppFactory submitted two proposals and WSO2 altogether submitted 18  proposals from eight different products.
           </p>
-        <div class="clearfix"><a class="btn btn-primary" target="_blank" style="float:right" href="http://www.regilandvalley.com/?p=205">Read More</a></div>
+        <div class="clearfix"><a class="btn btn-primary" style="float:right" href="http://www.regilandvalley.com/?p=205">Read More</a></div>
         </div>        
       </div>
 
