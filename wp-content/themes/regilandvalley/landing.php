@@ -10,18 +10,36 @@ Template Name: Landing page
 	    <div class="row featurette">
         <div class="col-md-5" style="padding-top:5%;padding-left:8%;">
            <div class="ih-item circle effect13 top_to_bottom"><a href="index.php?page_id=7">
-              <div class="img"><img src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="img"></div>
+              <div class="img">
+              <img src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="img">
+              </div>
               <div class="info">
                 <h3>About Me</h3>
                 <p>View full profile</p>
               </div></a>
            </div>
-         <!-- <a href="<?php echo get_permalink(7); ?>"><img class="featurette-image img-responsive about-portrait-landing"  src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="Generic placeholder image"></a>--><br/> 
         </div>
         <div class="col-md-7" style="margin-top:60px;">
           <h2 class="featurette-heading">Welcome to Anuruddha's Home page! </h2><br/>
           <p class="lead"> Thank you for visiting my site. This is the place where I share my knowledge and experience with the world, hope you'll find something useful here.</p>
         </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="<?php echo get_template_directory_uri();?>/img/wso2-logo.png" alt="Generic placeholder image">
+          <br/>
+          <img class="featurette-image img-responsive" src="<?php echo get_template_directory_uri();?>/img/gsoc-2015_burned.png" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">GSOC 2015 - WSO2 AppFactory <br/><span class="text-muted">- A journey begins</span></h2><br/><br/>
+          <p class="lead">
+            It’s with extreme pleasure I’m sharing that WSO2 AppFactory has made to Google summer of code for the first time. AppFactory submitted two proposals and WSO2 altogether submitted 18  proposals from eight different products.
+          </p>
+        <div class="clearfix"><a class="btn btn-primary" target="_blank" style="float:right" href="http://mifos.org/blog/meet-2014-google-summer-code-class-interns/">Read More</a></div>
+        </div>        
       </div>
 
       <hr class="featurette-divider">
