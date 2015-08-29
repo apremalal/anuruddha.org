@@ -21,7 +21,7 @@
 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Regiland Valley</title>
+    <title> <?php echo get_bloginfo('name'); ?></title>
     <meta name="description" content="Welcome to Anuruddha Premalal's personal website.">
     <meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/img/ico/favicon.ico">
