@@ -24,6 +24,7 @@
     <title> <?php echo get_bloginfo('name'); ?></title>
     <meta name="description" content="Welcome to Anuruddha Premalal's personal website.">
     <meta name="viewport" content="width=device-width">
+    <meta name="google-site-verification" content="BbupNHDmjMcPO4JMJd6htOvdRKTxqsIWOxFDrX7XKq8" />
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/img/ico/favicon.ico">
 
     <!-- Google Webfonts -->
