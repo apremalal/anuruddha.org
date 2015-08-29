@@ -38,7 +38,7 @@ Template Name: Landing page
           <p class="lead">
             It’s with extreme pleasure I’m sharing that WSO2 AppFactory has made to Google summer of code for the first time. AppFactory submitted two proposals and WSO2 altogether submitted 18  proposals from eight different products.
           </p>
-        <div class="clearfix"><a class="btn btn-primary" style="float:right" href="http://www.regilandvalley.com/?p=205">Read More</a></div>
+        <div class="clearfix"><a class="btn btn-primary" style="float:right" href="<?php echo get_site_url(); ?>/?p=205">Read More</a></div>
         </div>        
       </div>
 
@@ -73,9 +73,9 @@ Template Name: Landing page
 
       <div class="row featurette" style="margin-bottom:50px;">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Towards Context-Aware Just-in-Time Information: <span class="text-muted">Micro-Activity recognition of Everyday Objects.</span></h2><br/>
+          <h2 class="featurette-heading">Towards Context-Aware Just-in-Time Information: <span class="text-muted">Micro-A ctivity recognition of Everyday Objects.</span></h2><br/>
           <p class="lead">I did this research with my collegue Anuruddha Hettiarachchi. Through this research we discuss the end-to-end process of micro-activity recognition of augmented everyday-objects and presents a complete performance comparison of different classifiers. This paper is published in Eighth International Conference on Industrial and information Systems. </p>
-        	<div class="clearfix"><a class="btn btn-primary" style="float:right" href="http://www.regilandvalley.com/?p=53">Read More</a></div>
+        	<div class="clearfix"><a class="btn btn-primary" style="float:right" href="<?php echo get_site_url(); ?>/?p=53">Read More</a></div>
         </div>
         <div class="col-md-5">
 		      <img class="featurette-image img-responsive" src="<?php echo get_template_directory_uri();?>/img/ubicomp_2014.png" alt="Generic placeholder image">
@@ -92,7 +92,7 @@ Template Name: Landing page
         <div class="col-md-7" style="margin-bottom:5%;">
           <h2 class="featurette-heading" style="margin-top:0;">Detection of microfilariae <span class="text-muted">in peripheral blood smears using image analysis </span></h2><br/>
           <p class="lead">This paper presents an image-based technique for diagnosis of filariasis through the detection of microfilariae present in Giemsa or Hematoxylin and Eosin stained peripheral thick blood smears.</p>
-          <div class="clearfix"><a class="btn btn-primary" style="float:right" href="http://www.regilandvalley.com/?p=61">Read More</a></div>
+          <div class="clearfix"><a class="btn btn-primary" style="float:right" href="<?php echo get_site_url(); ?>/?p=61">Read More</a></div>
         </div>
       </div>
 

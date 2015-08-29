@@ -85,7 +85,7 @@
     <!-- cloud signup widget-->
     <div class="aside-widget">
         <div class="body">            
-            <form method="post" onsubmit="return validateEmail();" target="_blank" id="wso2cloud" style="margin-right:5%;padding:30px;border-radius:5px;background-image:url('http://www.regilandvalley.com/wp-content/themes/regilandvalley/img/wso2-cloud.png'); background-size:contain;" action="https://cloudmgt.cloud.wso2.com/cloudmgt/site/pages/signup.jag?source=widget">
+            <form method="post" onsubmit="return validateEmail();" target="_blank" id="wso2cloud" style="margin-right:5%;padding:30px;border-radius:5px;background-image:url('<?php echo get_template_directory_uri();?>/img/wso2-cloud.png'); background-size:contain;" action="https://cloudmgt.cloud.wso2.com/cloudmgt/site/pages/signup.jag?source=widget">
               <h3 style="text-align: center;margin-top:0">Try WSO2 Cloud</h3>
               <div class="form-group">
                 <input type="text" name="email" id="wso2-email" class="form-control" style="height:40px;" placeholder="E-mail" onfocus="clearEmailText();" autocomplete="off">
@@ -103,7 +103,7 @@
         </header>
 		<div class="body clearfix" style="margin-right:5%;">
 			<a class="twitter-timeline" href="https://twitter.com/anuruddhapre" data-widget-id="551270803937828864">Tweets by @anuruddhapre</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 		</div>
 	</div>
 
