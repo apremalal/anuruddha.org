@@ -46,7 +46,7 @@
         <div class="widewrapper masthead">
             <div class="container">
                 <a href="<?php echo home_url();?>" id="logo">
-                    <h1 style="margin-top: 0px;color: aliceblue;font-size: -webkit-xxx-large;"><?php echo get_bloginfo('name');?></h1>
+                    <h1 style="margin-top: 0px;color: aliceblue;font-size: -webkit-xxx-large;">Regiland Valley</h1>
                 </a>
 
                 <div id="mobile-nav-toggle" class="pull-right">
