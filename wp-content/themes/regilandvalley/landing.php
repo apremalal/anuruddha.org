@@ -9,7 +9,7 @@ Template Name: Landing page
       <!-- START THE FEATURETTES -->
 	    <div class="row featurette">
         <div class="col-md-5" style="padding-top:5%;padding-left:8%;">
-           <div class="ih-item circle effect13 top_to_bottom"><a href="index.php?page_id=7">
+           <div class="ih-item circle effect13 top_to_bottom"><a href="http://www.anuruddha.org/anuruddha_premalal">
               <div class="img">
               <img src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="img">
               </div>

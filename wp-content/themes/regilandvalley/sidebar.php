@@ -58,7 +58,7 @@
         <div class="body">
             <div class="row">
              <div class="col-md-6">
-              <div class="ih-item circle-sm effect13 top_to_bottom"><a href="index.php?page_id=7">
+              <div class="ih-item circle-sm effect13 top_to_bottom"><a href="http://www.anuruddha.org/anuruddha_premalal">
                   <div class="img"><img src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="img"></div>
                   <div class="info">
                     <h3>About Me</h3>
