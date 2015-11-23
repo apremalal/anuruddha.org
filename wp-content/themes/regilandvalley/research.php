@@ -95,7 +95,7 @@ diagnosis</p>
 					errors. Furthermore, prolonged use of microscopes can lead to
 					severe eye injuries.
                 </p>
-                <a class="btn btn-primary" href="<?php echo get_site_url(); ?>/?p=61">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="<?php echo get_site_url(); ?>/?p=268">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
