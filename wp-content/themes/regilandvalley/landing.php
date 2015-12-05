@@ -8,10 +8,14 @@ Template Name: Landing page
   <div class="container marketing">
       <!-- START THE FEATURETTES -->
 	    <div class="row featurette">
+	     <div class="col-md-7" style="margin-top:60px;">
+          <h2 class="featurette-heading">Welcome to Anuruddha's Home page! </h2><br/>
+          <p class="lead"> Thank you for visiting my site. This is the place where I share my knowledge and experience with the world, hope you'll find something useful here.</p>
+        </div>
         <div class="col-md-5" style="padding-top:5%;padding-left:8%;">
            <div class="ih-item circle effect13 top_to_bottom"><a href="http://www.anuruddha.org/anuruddha_premalal">
               <div class="img">
-              <img src="<?php echo get_template_directory_uri();?>/img/about-me.png" alt="img">
+              <img src="<?php echo get_template_directory_uri();?>/img/about-mev2.JPG" alt="img">
               </div>
               <div class="info">
                 <h3>About Me</h3>
@@ -19,10 +23,7 @@ Template Name: Landing page
               </div></a>
            </div>
         </div>
-        <div class="col-md-7" style="margin-top:60px;">
-          <h2 class="featurette-heading">Welcome to Anuruddha's Home page! </h2><br/>
-          <p class="lead"> Thank you for visiting my site. This is the place where I share my knowledge and experience with the world, hope you'll find something useful here.</p>
-        </div>
+       
       </div>
 
       <hr class="featurette-divider">
