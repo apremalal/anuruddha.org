@@ -15,7 +15,7 @@ Template Name: Landing page
         <div class="col-md-5" style="padding-top:5%;padding-left:8%;">
            <div class="ih-item circle effect13 top_to_bottom"><a href="http://www.anuruddha.org/anuruddha_premalal">
               <div class="img">
-              <img src="<?php echo get_template_directory_uri();?>/img/about-mev2.JPG" alt="img">
+              <img alt="Anuruddha Premalal" src="<?php echo get_template_directory_uri();?>/img/anuruddhapremalal.JPG">
               </div>
               <div class="info">
                 <h3>About Me</h3>
