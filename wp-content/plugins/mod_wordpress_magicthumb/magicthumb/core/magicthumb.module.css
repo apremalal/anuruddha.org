@@ -1,0 +1,126 @@
+
+/* NOTE: contaner with main image and selector's container */
+div.MagicToolboxContainer {
+    text-align: center;
+}
+div.MagicToolboxContainer.minWidth {
+    min-width: 250px;
+}
+
+/* NOTE: main image styles */
+div.MagicToolboxContainer > a {
+    margin: 0 auto;
+}
+
+/* NOTE: container with selectors */
+div.MagicToolboxSelectorsContainer {
+    clear: both;
+}
+
+/* NOTE: selectors styles */
+div.MagicToolboxSelectorsContainer > a {
+    display: inline-block;
+    margin: 4px 1px;
+}
+
+/* NOTE: contaner with message under Magic Thumb */
+div.MagicToolboxMessage {
+    text-align: center;
+}
+
+/* NOTE: styles for templates */
+div.MagicToolboxMainContainer {
+    max-width: 100%;
+}
+div.MagicToolboxSelectorsContainer img {
+    max-width: 100%;
+}
+
+/* NOTE: selectors on the bottom */
+div.MagicToolboxContainer.selectorsBottom .MagicToolboxSelectorsContainer {
+    padding-top: 5px;
+}
+
+/* NOTE: selectors on the top */
+div.MagicToolboxContainer.selectorsTop .MagicToolboxSelectorsContainer {
+    padding-bottom: 5px;
+}
+
+/* NOTE: selectors on the left */
+div.MagicToolboxContainer.selectorsLeft {
+    display: inline-table;
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxMainContainer,
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    padding-right: 5px;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer .MagicScroll {
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer a {
+    display: block;
+}
+/* NOTE: fix for MagicScroll */
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer .MagicScroll > a:nth-child(n+2) {
+    display: none;
+}
+
+/* NOTE: selectors on the right */
+div.MagicToolboxContainer.selectorsRight {
+    display: inline-table;
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsRight .MagicToolboxMainContainer,
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    padding-left: 5px;
+}
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer .MagicScroll {
+    height: 100%;
+}
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer a {
+    display: block;
+}
+/* NOTE: fix for MagicScroll */
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer .MagicScroll > a:nth-child(n+2) {
+    display: none;
+}
+
+/* NOTE: fix for MagicScroll when height of parent elements is not defined */
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer,
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer {
+    position: relative;
+}
+div.MagicToolboxContainer.selectorsLeft .MagicToolboxSelectorsContainer .MagicScroll,
+div.MagicToolboxContainer.selectorsRight .MagicToolboxSelectorsContainer .MagicScroll {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* NOTE: magicscroll makes the image smaller if there is a margin */
+/*
+.MagicScrollItem a {
+    margin: 0 !important;
+}
+*/
+.MagicThumb img {
+    padding:0px !important;
+}
+.MagicToolboxContainer {
+    text-align: center;
+    display: inline-block !important;
+    clear: both;
+}
+
+.MagicToolboxSelectorsContainer a {
+    display: inline-block !important;
+}
+

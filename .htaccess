@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^anuruddha_premalal /?page_id=7 [L,QSA]
+
+# BEGIN WordPress
+
+# END WordPress
